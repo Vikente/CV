@@ -1,0 +1,29 @@
+.list {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: aqua;
+}
+
+.footer-container {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+body {
+    background-image: url(./assets/png/background\ 2.0.png);
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+h3{
+    display: flex;
+    justify-content: center;
+  
+}
