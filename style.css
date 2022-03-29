@@ -4,7 +4,48 @@
 
 a {
     text-decoration: none;
-    color: aqua;
+    color: blueviolet;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: palevioletred;
+}
+
+a:visited {
+    color:rgb(238, 173, 195)
+}
+
+.card {
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    width: 800px;
+    text-align: center;
+}
+
+.bg-p {
+    background: #bc72e7c4;
+}
+
+
+.bg-pi {
+    background: #bc72e7d2;
+}
+
+.bg-pin {
+    background: #bc72e7e3;
+}
+
+.bg-pink {
+    background: #bc72e7f3;
+}
+
+.bg-pinkk {
+    background: #bc72e7;
 }
 
 .footer-container {
@@ -14,16 +55,35 @@ a {
 }
 
 body {
-    background-image: url(./assets/png/background\ 2.0.png);
+    background-image: url(./assets/png/background2.2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    min-width: 1000px;
 }
 
-h1{
+.conteiner {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
-h3{
-    display: flex;
-    justify-content: center;
-  
+
+footer {
+    color: blueviolet;
 }
+
+.photo {
+    border-radius: 100px;  
+    width:200px;
+}
+ @media (max-width: 800px) {
+     .contact {
+         font-size: x-large;
+     }
+    .photo {
+        width: 300px;
+        border-radius: 200px;
+    }
+ }
